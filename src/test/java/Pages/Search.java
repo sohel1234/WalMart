@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Search {
-	// test comment 
+
 public WebDriver driver;
 	
 	public Search (WebDriver driver){
