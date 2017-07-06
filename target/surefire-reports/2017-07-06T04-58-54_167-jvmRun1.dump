@@ -1,0 +1,9 @@
+# Created on 2017-07-06T04:58:55.102
+org.apache.maven.surefire.testset.TestSetFailedException: Suite file C:\Users\Owner\Desktop\Tutorial_Java_Selenium_s\walmart2017\Funtional.xml is not a valid file
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.locateTestSets(TestNGXmlTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+

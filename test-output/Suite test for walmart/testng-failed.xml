@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite test for walmart]">
+  <listeners>
+    <listener class-name="Listener.WListener"/>
+  </listeners>
+  <test name="Test for search(failed)">
+    <classes>
+      <class name="TestCases.WalmartSearchTest">
+        <methods>
+          <include name="toSearchTest"/>
+        </methods>
+      </class> <!-- TestCases.WalmartSearchTest -->
+    </classes>
+  </test> <!-- Test for search(failed) -->
+  <test name="Test for furnitureSearch(failed)">
+    <classes>
+      <class name="TestCases.WalmartBedroomFurnitureTest">
+        <methods>
+          <include name="tobedroomfurniture"/>
+        </methods>
+      </class> <!-- TestCases.WalmartBedroomFurnitureTest -->
+    </classes>
+  </test> <!-- Test for furnitureSearch(failed) -->
+</suite> <!-- Failed suite [Suite test for walmart] -->
